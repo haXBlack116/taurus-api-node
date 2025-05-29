@@ -1,4 +1,5 @@
-Tecnologias utilizadas
+#Tecnologias utilizadas
+
 1.Node.js
 
 2.Express
@@ -9,14 +10,15 @@ Tecnologias utilizadas
 
 5.pg (driver PostgreSQL para Node.js)
 
-Requisitos
+#Requisitos
+
 1.Node.js
 
 2.PostgreSQL
 
 3.Gerenciador de pacotes npm 
 
-Instalação
+#Instalação
 
 1.Clone o Repositório: git clone https://github.com/haXBlack116/taurus-api-node.git
 
@@ -58,7 +60,7 @@ taurus-api-node@1.0.0 start
 
 Servidor rodando na porta 3000
 
-Banco de Dados
+#Banco de Dados
 O projeto utiliza PostgreSQL. As definições de tabelas e dados iniciais estão localizadas na pasta: /database/sql/
 
 Rotas

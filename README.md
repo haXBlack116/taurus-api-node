@@ -35,10 +35,18 @@ API_KEY=sua_chave_do_Gemini
 
 # Configurações do Banco de Dados
 DB_HOST=localhost         # Endereço do banco de dados (localhost se estiver na mesma máquina)
-DB_PORT=porta_do_banco    # Porta que o banco está escutando (Ex: 5432 para PostgreSQL, 3306 para MySQL)
-DB_USER=seu_usuario       # Usuário do banco de dados
-DB_PASSWORD=sua_senha     # Senha do banco de dados
-DB_DATABASE=nome_do_banco      # Nome do banco de dados criado pelos scripts em SQL na pasta database.
+
+# Porta que o banco está escutando (Ex: 5432 para PostgreSQL, 3306 para MySQL)
+DB_PORT=porta_do_banco   
+
+# Usuário do banco de dados
+DB_USER=seu_usuario       
+
+# Senha do banco de dados
+DB_PASSWORD=sua_senha 
+
+# Nome do banco de dados criado pelos scripts em SQL na pasta database.
+DB_DATABASE=nome_do_banco      
 
 5.Configure o banco de dados
 Crie o banco no PostgreSQL: CREATE DATABASE nome_do_banco;

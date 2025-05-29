@@ -5,10 +5,10 @@ require('dotenv').config();
 
 const chatRoutes = require('./routes/chatRoutes');
 
-// Middleware - CORS configurado para permitir só o frontend
 app.use(cors({
-  origin: 'http://localhost:5173', // Porta do Vite (frontend)
-  methods: ['GET', 'POST'],
+  origin: 'http://localhost:5173', 
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type'],
   credentials: true,
 }));
 

@@ -1,2 +1,26 @@
-node_modules
+# Ignorar node_modules do backend e frontend
+taurus-api-node/node_modules/
+taurus-chatbot/node_modules/
+
+# Ignorar arquivos .env do backend e frontend
+taurus-api-node/.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Vite e outros caches locais
+.vite/
+dist/
+
+# Editor de código
+.vscode/
+.idea/
+
+# Outras pastas comuns
 .env
+node_modules/

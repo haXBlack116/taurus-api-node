@@ -16,21 +16,6 @@ Requisitos
 
 3.Gerenciador de pacotes npm 
 
-Estrutura:
-.
-├── database
-│   ├── sql                 # Scripts SQL e backups do banco
-│   └── db.js               # Configuração da conexão PostgreSQL
-├── node_modules            # Dependências do projeto
-├── routes
-│   └── chatRoutes.js       # Definição das rotas da API
-├── .env                    # Variáveis de ambiente (não versionado)
-├── .env.example            # Exemplo das variáveis de ambiente
-├── .gitignore              # Arquivos e pastas ignorados pelo Git
-├── package.json            # Configurações e dependências do projeto
-├── package-lock.json       # Controle exato das versões das dependências
-└── server.js               # Arquivo principal que sobe o servidor
-
 Instalação
 
 1.Clone o Repositório: git clone https://github.com/haXBlack116/taurus-api-node.git

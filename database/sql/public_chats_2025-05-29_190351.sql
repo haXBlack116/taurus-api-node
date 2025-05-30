@@ -8,10 +8,8 @@
 
 */
 
-CREATE TABLE public.chats (
+CREATE TABLE chats (
   id serial NOT NULL,
   title character varying(255) NOT NULL,
   created_at timestamp without time zone NULL DEFAULT CURRENT_TIMESTAMP
 );
-
-ALTER TABLE public.chats ADD CONSTRAINT chats_pkey PRIMARY KEY (id);

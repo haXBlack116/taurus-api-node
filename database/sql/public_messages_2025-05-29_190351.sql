@@ -8,12 +8,10 @@
 
 */
 
-CREATE TABLE public.messages (
+CREATE TABLE messages (
   id serial NOT NULL,
   chat_id integer NOT NULL,
   role character varying(50) NOT NULL,
   content text NOT NULL,
   created_at timestamp without time zone NULL DEFAULT CURRENT_TIMESTAMP
 );
-
-ALTER TABLE public.messages ADD CONSTRAINT messages_pkey PRIMARY KEY (id);
